@@ -1,0 +1,19 @@
+{
+  "name": "item-nicknames-example",
+  "version": "0.1.0",
+  "title": "Item Nicknames: Example Pack",
+  "author": "djfariel",
+  "factorio_version": "2.0",
+  "description": "Example search nicknames for vanilla and Space Age items, shipped through the Item Nicknames pack API.",
+  "dependencies": [
+    "base",
+    "? space-age",
+    "item-nicknames >= 0.1.0"
+  ],
+  "package": {
+    "ignore": [".git/**", ".idea/**", "**/*.zip"],
+    "readme": "README.md",
+    "sync_portal_details": true,
+    "zipLocation": "outside"
+  }
+}
