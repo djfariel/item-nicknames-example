@@ -1,11 +1,11 @@
 # Item Nicknames: Example Pack
 
-Optional sibling mod for [Item Nicknames](../item-nicknames_0.1.0/). Ships example nicknames as startup pack `example` (setting `item-nicknames-pack-example`) using the Item Nicknames pack API.
+Optional sibling mod for [Item Nicknames](../item-nicknames/). Ships example nicknames as startup pack `example` (setting `item-nicknames-pack-example`) using the Item Nicknames pack API.
 
 ## Requirements
 
-- **Item Nicknames** (`item-nicknames >= 0.1.0`) — required; this mod does nothing without it
-- **Space Age** — optional (`? space-age` in `info.json`). Rows for prototypes that only exist with Space Age enabled simply have no effect when that expansion is not loaded (no separate skip step; missing prototypes are not nicknamed)
+- **Item Nicknames** - required; this mod does nothing without it
+- **Space Age** - optional. Rows for prototypes that only exist with Space Age enabled simply have no effect when that expansion is not loaded.
 
 ## Install
 
@@ -33,7 +33,7 @@ To disable this pack only, clear **Example nicknames** in Mod settings → Start
 
 **In repo**
 
-Edit the IN1 string returned from `pack-definitions.lua`. See the core mod [IN1 format](../item-nicknames_0.1.0/README.md#format-in1) to decode or author JSON before encoding.
+Edit the IN1 string returned from `pack-definitions.lua`. See the core mod [IN1 format](../item-nicknames/README.md#format-in1) to decode or author JSON before encoding.
 
 ## Repository layout
 
